@@ -288,6 +288,21 @@ plumbing_server_client_generate_messages_lisp/fast:
 .PHONY : plumbing_server_client_generate_messages_lisp/fast
 
 # Convenience name for target.
+plumbing_server_client/CMakeFiles/demo02_client.dir/rule:
+	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_server_client/CMakeFiles/demo02_client.dir/rule
+.PHONY : plumbing_server_client/CMakeFiles/demo02_client.dir/rule
+
+# Convenience name for target.
+demo02_client: plumbing_server_client/CMakeFiles/demo02_client.dir/rule
+
+.PHONY : demo02_client
+
+# fast build rule for target.
+demo02_client/fast:
+	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f plumbing_server_client/CMakeFiles/demo02_client.dir/build.make plumbing_server_client/CMakeFiles/demo02_client.dir/build
+.PHONY : demo02_client/fast
+
+# Convenience name for target.
 plumbing_server_client/CMakeFiles/plumbing_server_client_genlisp.dir/rule:
 	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f CMakeFiles/Makefile2 plumbing_server_client/CMakeFiles/plumbing_server_client_genlisp.dir/rule
 .PHONY : plumbing_server_client/CMakeFiles/plumbing_server_client_genlisp.dir/rule
@@ -389,6 +404,33 @@ src/demo01_server.cpp.s:
 	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f plumbing_server_client/CMakeFiles/demo01_server.dir/build.make plumbing_server_client/CMakeFiles/demo01_server.dir/src/demo01_server.cpp.s
 .PHONY : src/demo01_server.cpp.s
 
+src/demo02_client.o: src/demo02_client.cpp.o
+
+.PHONY : src/demo02_client.o
+
+# target to build an object file
+src/demo02_client.cpp.o:
+	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f plumbing_server_client/CMakeFiles/demo02_client.dir/build.make plumbing_server_client/CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o
+.PHONY : src/demo02_client.cpp.o
+
+src/demo02_client.i: src/demo02_client.cpp.i
+
+.PHONY : src/demo02_client.i
+
+# target to preprocess a source file
+src/demo02_client.cpp.i:
+	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f plumbing_server_client/CMakeFiles/demo02_client.dir/build.make plumbing_server_client/CMakeFiles/demo02_client.dir/src/demo02_client.cpp.i
+.PHONY : src/demo02_client.cpp.i
+
+src/demo02_client.s: src/demo02_client.cpp.s
+
+.PHONY : src/demo02_client.s
+
+# target to generate assembly for a file
+src/demo02_client.cpp.s:
+	cd /home/prince/GitRepo/learning-ROS/demo03_ws/build && $(MAKE) -f plumbing_server_client/CMakeFiles/demo02_client.dir/build.make plumbing_server_client/CMakeFiles/demo02_client.dir/src/demo02_client.cpp.s
+.PHONY : src/demo02_client.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -406,6 +448,7 @@ help:
 	@echo "... plumbing_server_client_gennodejs"
 	@echo "... install"
 	@echo "... plumbing_server_client_generate_messages_lisp"
+	@echo "... demo02_client"
 	@echo "... plumbing_server_client_genlisp"
 	@echo "... plumbing_server_client_generate_messages_nodejs"
 	@echo "... edit_cache"
@@ -418,6 +461,9 @@ help:
 	@echo "... src/demo01_server.o"
 	@echo "... src/demo01_server.i"
 	@echo "... src/demo01_server.s"
+	@echo "... src/demo02_client.o"
+	@echo "... src/demo02_client.i"
+	@echo "... src/demo02_client.s"
 .PHONY : help
 
 

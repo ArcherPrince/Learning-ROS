@@ -336,6 +336,9 @@ gennodejs_DIR:PATH=/opt/ros/melodic/share/gennodejs/cmake
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/melodic/share/genpy/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/melodic/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/gtest/googlemock
 
@@ -412,6 +415,12 @@ plumbing_server_client_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo0
 //Value Computed by CMake
 plumbing_server_client_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_server_client
 
+//Value Computed by CMake
+plumbing_test_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_test
+
+//Value Computed by CMake
+plumbing_test_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_test
+
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
 
@@ -435,6 +444,12 @@ rostime_DIR:PATH=/opt/ros/melodic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/melodic/share/std_msgs/cmake
+
+//The directory containing a CMake configuration file for std_srvs.
+std_srvs_DIR:PATH=/opt/ros/melodic/share/std_srvs/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/melodic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/melodic/share/xmlrpcpp/cmake
@@ -557,7 +572,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

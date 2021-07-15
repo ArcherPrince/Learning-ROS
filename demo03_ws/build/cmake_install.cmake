@@ -134,6 +134,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_param_server/cmake_install.cmake")
   include("/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_pub_sub/cmake_install.cmake")
   include("/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_server_client/cmake_install.cmake")
+  include("/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_test/cmake_install.cmake")
 
 endif()
 

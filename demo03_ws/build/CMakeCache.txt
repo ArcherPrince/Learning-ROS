@@ -388,6 +388,15 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;pthread;general;gtest;
 
+//Dependencies for the target
+head_src_LIB_DEPENDS:STATIC=general;/opt/ros/melodic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/opt/ros/melodic/lib/librosconsole.so;general;/opt/ros/melodic/lib/librosconsole_log4cxx.so;general;/opt/ros/melodic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/melodic/lib/libxmlrpcpp.so;general;/opt/ros/melodic/lib/libroscpp_serialization.so;general;/opt/ros/melodic/lib/librostime.so;general;/opt/ros/melodic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4;
+
+//Value Computed by CMake
+launch01_basic_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/launch01_basic
+
+//Value Computed by CMake
+launch01_basic_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/launch01_basic
+
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
 
@@ -396,6 +405,36 @@ message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
+
+//Value Computed by CMake
+plumbing_apis_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_apis
+
+//Value Computed by CMake
+plumbing_apis_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_apis
+
+//Value Computed by CMake
+plumbing_head_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_head
+
+//Value Computed by CMake
+plumbing_head_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_head
+
+//Value Computed by CMake
+plumbing_head_src_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_head_src
+
+//Value Computed by CMake
+plumbing_head_src_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_head_src
+
+//Value Computed by CMake
+plumbing_mine_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_mine
+
+//Value Computed by CMake
+plumbing_mine_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_mine
+
+//Value Computed by CMake
+plumbing_my_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_my
+
+//Value Computed by CMake
+plumbing_my_SOURCE_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/src/plumbing_my
 
 //Value Computed by CMake
 plumbing_param_server_BINARY_DIR:STATIC=/home/prince/GitRepo/learning-ROS/demo03_ws/build/plumbing_param_server
@@ -572,7 +611,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

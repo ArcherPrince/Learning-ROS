@@ -1,0 +1,35 @@
+bg_B: 255
+bg_G: 50
+bg_R: 100
+my_turtle:
+  background_b: 255
+  background_g: 86
+  background_r: 69
+  bg_B: 255
+  bg_G: 50
+  bg_R: 100
+  param_B: 3.14
+param_A: 100
+rosdistro: 'melodic
+
+  '
+roslaunch:
+  uris:
+    host_prince_zhengjiuzhe_ren7000_28icbr__33353: http://prince-ZHENGJIUZHE-REN7000-28ICBR:33353/
+    host_prince_zhengjiuzhe_ren7000_28icbr__33653: http://prince-ZHENGJIUZHE-REN7000-28ICBR:33653/
+    host_prince_zhengjiuzhe_ren7000_28icbr__33897: http://prince-ZHENGJIUZHE-REN7000-28ICBR:33897/
+    host_prince_zhengjiuzhe_ren7000_28icbr__33985: http://prince-ZHENGJIUZHE-REN7000-28ICBR:33985/
+    host_prince_zhengjiuzhe_ren7000_28icbr__35473: http://prince-ZHENGJIUZHE-REN7000-28ICBR:35473/
+    host_prince_zhengjiuzhe_ren7000_28icbr__35487: http://prince-ZHENGJIUZHE-REN7000-28ICBR:35487/
+    host_prince_zhengjiuzhe_ren7000_28icbr__36765: http://prince-ZHENGJIUZHE-REN7000-28ICBR:36765/
+    host_prince_zhengjiuzhe_ren7000_28icbr__37209: http://prince-ZHENGJIUZHE-REN7000-28ICBR:37209/
+    host_prince_zhengjiuzhe_ren7000_28icbr__39661: http://prince-ZHENGJIUZHE-REN7000-28ICBR:39661/
+    host_prince_zhengjiuzhe_ren7000_28icbr__40007: http://prince-ZHENGJIUZHE-REN7000-28ICBR:40007/
+    host_prince_zhengjiuzhe_ren7000_28icbr__41411: http://prince-ZHENGJIUZHE-REN7000-28ICBR:41411/
+    host_prince_zhengjiuzhe_ren7000_28icbr__41697: http://prince-ZHENGJIUZHE-REN7000-28ICBR:41697/
+    host_prince_zhengjiuzhe_ren7000_28icbr__43397: http://prince-ZHENGJIUZHE-REN7000-28ICBR:43397/
+    host_prince_zhengjiuzhe_ren7000_28icbr__46305: http://prince-ZHENGJIUZHE-REN7000-28ICBR:46305/
+rosversion: '1.14.11
+
+  '
+run_id: 8fd67bac-0eb6-11ec-b5d5-e69adc6c87a0

@@ -1,2 +1,2 @@
-helloworld
--DCATKIN_DEVEL_PREFIX=/home/prince/LearningROS/demo01_ws/devel -DCMAKE_INSTALL_PREFIX=/home/prince/LearningROS/demo01_ws/install -G Unix Makefiles
+helloworld:turtlesim
+-DCATKIN_DEVEL_PREFIX=/home/prince/GitRepo/learning-ROS/demo01_ws/devel -DCMAKE_INSTALL_PREFIX=/home/prince/GitRepo/learning-ROS/demo01_ws/install -G Unix Makefiles

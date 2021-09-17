@@ -1,0 +1,9 @@
+<!-- 键盘控制乌龟运动 -->
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="t2"/>
+
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="keypoard" >
+        <remap from="cmd_vel" to="/turtle1/cmd_vel" /> 
+    </node>
+
+</launch>
